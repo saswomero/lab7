@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>My title</title>
+</head>
+<body>
+  <h1>Имя: {{name}}</h1>
+  <h2>Группа: {{group}}</h2>
+  <h2>Оценки:</h2>
+  <br>
+  {% for mark in marks: %}
+  <b style="color:blue">{{mark}}</b>
+  {% endfor %}
+</body>
+</html>
